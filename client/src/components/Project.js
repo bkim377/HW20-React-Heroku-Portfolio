@@ -8,9 +8,9 @@ function Project(props) {
     <div className="col">
     <h5>{props.header}</h5>
     <p>{props.description}</p>
-      <a href={props.deployedLink}>Deployed Link</a> 
+      <a href={props.deployedLink} target="_blank">Deployed Link</a> 
     <p></p>
-      <a href={props.githubLink}>Link to GitHub code</a>
+      <a href={props.githubLink} target="_blank">Link to GitHub code</a>
     </div>
   </div> 
   )
