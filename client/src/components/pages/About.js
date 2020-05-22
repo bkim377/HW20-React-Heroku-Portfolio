@@ -28,7 +28,7 @@ function About() {
                     <a href="https://www.linkedin.com/in/brandongkim/">LinkedIn</a>
                     <p></p>
                     <img className="social-media" src="./assets/imgs/resume.png" alt="Resume" />
-                    <a href="https://drive.google.com/open?id=1al1y7Y_mezcPjcaxnSP56YcNSw9KCOOh">My Resume</a>
+                    <a href="https://drive.google.com/open?id=1Ju-6rLwlDMJMYMiE_rwNTsjmyokQ0KAr">My Resume</a>
                     </div>
                 </div>
                 </div>
