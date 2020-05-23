@@ -11,6 +11,8 @@ function Portfolio() {
                 <div class="card">
                 <div class = "card-body">
                     <h2 class="card-title">My Programming Projects</h2>
+                    <h5>*If you are viewing this page on a smartphone, please rotate it to landscape format to read the text.*</h5>
+                    <br></br>
                 
             <Project 
                 imageSource="assets/imgs/3-MyLibraryNewPortrait.png" 
