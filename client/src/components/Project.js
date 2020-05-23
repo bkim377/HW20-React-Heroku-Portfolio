@@ -1,5 +1,5 @@
 import React from "react";
-// import "./components/Project.css";
+import "../components/Project.css";
 
 function Project(props) {
   return (
@@ -8,9 +8,9 @@ function Project(props) {
     <div className="col">
     <h5>{props.header}</h5>
     <p>{props.description}</p>
-      <a href={props.deployedLink} target="_blank">Deployed Link</a> 
-    <br></br>
-      <a href={props.githubLink} target="_blank">Link to GitHub code</a>
+    <p><a href={props.deployedLink} target="_blank">Deployed Link</a></p>
+    <p></p>
+    <p><a href={props.githubLink}>Link to GitHub code</a></p>
     </div>
   </div> 
   )
