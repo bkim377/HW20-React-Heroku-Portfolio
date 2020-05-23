@@ -9,33 +9,34 @@ function Contact() {
                     <div class="card">
                     <div class = "card-body">
                         <h2 class="card-title">Contact Me</h2>
-                        <h5>My Email: <a href="bkim377@gatech.edu">bkim377@gatech.edu</a></h5>
+                        <h5>My Email: <a href="mailto:bkim377@gatech.edu">bkim377@gatech.edu</a></h5>
                         <h5>My Phone Number: 770-557-7499</h5>
+                        <hr></hr>
                     <div>
-                        <form>
-                            <div class="form-group">
+                        <form action="mailto:bkim377@gatech.edu" method="post" enctype="application/x-www-form-urlencoded">
                               <label for="exampleFormControlInput1">Name</label>
-                              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                              <input type="name" class="form-control mb-3" id="exampleFormControlInput1" placeholder="John Smith">
                             </input>
-                            <div class="form-group">
+
                               <label for="exampleFormControlInput1">Email</label>
-                              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="example@gmail.com">
+                              <input type="email" class="form-control mb-3" id="exampleFormControlInput2" placeholder="example@gmail.com">
                             </input>
-                            <div class="form-group">
+
                               <label for="exampleFormControlTextarea1">Message</label>
                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                          </div>
-                    
-                  </div>
-                </form>
+                              
+                              <br></br>
+
+                            <button type="submit" class="btn btn-primary">Send</button>
+                            <button type="reset" class="btn btn-danger">Reset</button>
+                            
+                        </form>
+                    </div>
+                    </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
-        </div>
+    </div>
         
   );
 }
