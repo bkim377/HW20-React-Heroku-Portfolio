@@ -9,7 +9,7 @@ function Project(props) {
     <h5>{props.header}</h5>
     <p>{props.description}</p>
       <a href={props.deployedLink} target="_blank">Deployed Link</a> 
-    <p></p>
+    <br></br>
       <a href={props.githubLink} target="_blank">Link to GitHub code</a>
     </div>
   </div> 
