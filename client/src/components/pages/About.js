@@ -7,7 +7,7 @@ function About() {
                 <div className="col">
                     <div className="card">
                     <div className = "card-body">
-                        <h2 className="card-title">Brandon Kim</h2>
+                        <h1 className="card-title">Brandon Kim</h1>
                     </div>
                 <div className="row p-3">
                   <div className="col-sm-8">
